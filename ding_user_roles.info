@@ -2,6 +2,7 @@ name = Ding user roles
 description = Defines the different roles that a given user can have on the site.
 core = 7.x
 package = Ding!
+php = 5.2.4
 version = 7.x-1.0-beta1
 project = ding_user_roles
 dependencies[] = features
