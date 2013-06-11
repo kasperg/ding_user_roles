@@ -11,7 +11,6 @@ dependencies[] = profile2
 dependencies[] = user
 features[features_api][] = api:1
 features[user_permission][] = access user profiles
-features[user_permission][] = administer EU Cookie Compliance popup
 features[user_permission][] = administer dibs transactions
 features[user_permission][] = administer url aliases
 features[user_permission][] = administer users

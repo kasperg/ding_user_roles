@@ -20,16 +20,6 @@ function ding_user_roles_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: administer EU Cookie Compliance popup.
-  $permissions['administer EU Cookie Compliance popup'] = array(
-    'name' => 'administer EU Cookie Compliance popup',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'redaktør' => 'redaktør',
-    ),
-    'module' => 'eu_cookie_compliance',
-  );
-
   // Exported permission: administer dibs transactions.
   $permissions['administer dibs transactions'] = array(
     'name' => 'administer dibs transactions',
@@ -88,17 +78,6 @@ function ding_user_roles_user_default_permissions() {
       'redaktør' => 'redaktør',
     ),
     'module' => 'path',
-  );
-
-  // Exported permission: display EU Cookie Compliance popup.
-  $permissions['display EU Cookie Compliance popup'] = array(
-    'name' => 'display EU Cookie Compliance popup',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'eu_cookie_compliance',
   );
 
   // Exported permission: dynamic background configure default.
