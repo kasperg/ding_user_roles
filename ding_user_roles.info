@@ -17,7 +17,6 @@ features[user_permission][] = administer users
 features[user_permission][] = cancel account
 features[user_permission][] = change own username
 features[user_permission][] = create url aliases
-features[user_permission][] = display EU Cookie Compliance popup
 features[user_permission][] = dynamic background configure default
 features[user_permission][] = dynamic background upload default
 features[user_permission][] = dynamic backgrounds css callback
