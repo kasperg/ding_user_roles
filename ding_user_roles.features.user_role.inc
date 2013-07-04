@@ -11,6 +11,7 @@ function ding_user_roles_user_default_roles() {
   $roles = array();
 
   // Exported role: administrator.
+  // Should these names be in English? The problem is that custom role names cannot be translated.
   $roles['administrator'] = array(
     'name' => 'administrator',
     'weight' => 6,
